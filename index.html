@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Technology Solutions - Specializing in private model training, LLM customization, prompt optimization, and more.">
+    <title>LadeBuid</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>LadeBuid</h1>
+                <p class="tagline">Advanced AI Technology Services</p>
+                <p class="tagline-zh">先进人工智能技术服务</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#services" data-en="Services" data-zh="服务">Services</a></li>
+                    <li><a href="#about" data-en="About" data-zh="关于我们">About</a></li>
+                    <li><a href="#contact" data-en="Contact" data-zh="联系我们">Contact</a></li>
+                    <li><button id="language-toggle" aria-label="Toggle Language">EN | 中文</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 class="en">Transforming Businesses with AI Technology</h2>
+            <h2 class="zh">用人工智能技术改变企业</h2>
+            <p class="en">Customized AI solutions to enhance your business capabilities</p>
+            <p class="zh">定制化人工智能解决方案，提升您的业务能力</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title en">Our Services</h2>
+            <h2 class="section-title zh">我们的服务</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-brain"></i>
+                    <h3 class="en">Private Model Training</h3>
+                    <h3 class="zh">私有模型训练</h3>
+                    <p class="en">Custom AI models trained on your proprietary data with complete privacy and security.</p>
+                    <p class="zh">在您的专有数据上训练的自定义AI模型，确保完全的隐私和安全。</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3 class="en">Open-source LLM Customization</h3>
+                    <h3 class="zh">开源LLM定制化</h3>
+                    <p class="en">Adapt and fine-tune open-source language models to meet your specific business needs.</p>
+                    <p class="zh">调整和微调开源语言模型，以满足您的特定业务需求。</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-magic"></i>
+                    <h3 class="en">Prompt Optimization</h3>
+                    <h3 class="zh">提示词优化</h3>
+                    <p class="en">Expert engineering of prompts to maximize the effectiveness of your AI interactions.</p>
+                    <p class="zh">专业的提示词工程，最大化您的AI交互效果。</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-headset"></i>
+                    <h3 class="en">Local Customer Service Systems</h3>
+                    <h3 class="zh">本地客户服务系统</h3>
+                    <p class="en">Implement AI-powered customer service solutions that run locally on your infrastructure.</p>
+                    <p class="zh">在您的基础设施上本地运行的AI驱动客户服务解决方案。</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-server"></i>
+                    <h3 class="en">Website Hosting</h3>
+                    <h3 class="zh">网站托管</h3>
+                    <p class="en">Reliable and secure hosting solutions optimized for AI-integrated applications.</p>
+                    <p class="zh">为AI集成应用程序优化的可靠安全的托管解决方案。</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3 class="en">Cloud Computing & Big Data Support</h3>
+                    <h3 class="zh">云计算和大数据技术支持</h3>
+                    <p class="en">Technical expertise for managing and analyzing large datasets in cloud environments.</p>
+                    <p class="zh">在云环境中管理和分析大型数据集的技术专长。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title en">About Us</h2>
+            <h2 class="section-title zh">关于我们</h2>
+            <div class="about-content">
+                <p class="en">LadeBuid is a leading provider of AI technology services, helping businesses leverage the power of artificial intelligence to drive innovation and efficiency. Our team of experts combines deep technical knowledge with business acumen to deliver solutions that create real value.</p>
+                <p class="zh">LadeBuid 是人工智能技术服务的领先提供商，帮助企业利用人工智能的力量推动创新和提高效率。我们的专家团队将深厚的技术知识与商业敏锐度相结合，提供创造真正价值的解决方案。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title en">Contact Us</h2>
+            <h2 class="section-title zh">联系我们</h2>
+            <div class="contact-form">
+                <form id="email-form">
+                    <div class="form-group">
+                        <label for="name" class="en">Name</label>
+                        <label for="name" class="zh">姓名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="en">Email</label>
+                        <label for="email" class="zh">电子邮件</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="en">Message</label>
+                        <label for="message" class="zh">留言</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="en">Subscribe to Updates</button>
+                    <button type="submit" class="zh">订阅更新</button>
+                </form>
+                <div id="form-success" class="hidden">
+                    <p class="en">Thank you for your interest! We'll be in touch soon.</p>
+                    <p class="zh">感谢您的关注！我们将很快与您联系。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>LadeBuid</h3>
+                </div>
+                <div class="footer-links">
+                    <h4 class="en">Quick Links</h4>
+                    <h4 class="zh">快速链接</h4>
+                    <ul>
+                        <li><a href="#services" class="en">Services</a><a href="#services" class="zh">服务</a></li>
+                        <li><a href="#about" class="en">About</a><a href="#about" class="zh">关于我们</a></li>
+                        <li><a href="#contact" class="en">Contact</a><a href="#contact" class="zh">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 class="en">Contact Info</h4>
+                    <h4 class="zh">联系信息</h4>
+                    <p><i class="fas fa-envelope"></i> info@ladebuid.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="en">&copy; 2023 LadeBuid. All rights reserved.</p>
+                <p class="zh">&copy; 2023 LadeBuid. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
